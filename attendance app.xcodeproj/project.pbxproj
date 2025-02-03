@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A22C75A2CDB9E930040ACD2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22C7592CDB9E930040ACD2 /* Extension.swift */; };
 		3A24C6FB2CD91C0200BFAAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C6FA2CD91C0200BFAAC3 /* AppDelegate.swift */; };
 		3A24C6FD2CD91C0200BFAAC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C6FC2CD91C0200BFAAC3 /* SceneDelegate.swift */; };
-		3A24C6FF2CD91C0200BFAAC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C6FE2CD91C0200BFAAC3 /* ViewController.swift */; };
 		3A24C7022CD91C0200BFAAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A24C7002CD91C0200BFAAC3 /* Main.storyboard */; };
 		3A24C7042CD91C0300BFAAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A24C7032CD91C0300BFAAC3 /* Assets.xcassets */; };
 		3A24C7072CD91C0300BFAAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A24C7052CD91C0300BFAAC3 /* LaunchScreen.storyboard */; };
+		3A24C70F2CD91C5500BFAAC3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C70E2CD91C5500BFAAC3 /* Model.swift */; };
+		3A24C7112CD91C8B00BFAAC3 /* UserDefaults Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C7102CD91C8B00BFAAC3 /* UserDefaults Helper.swift */; };
+		3A24C7132CD91CB300BFAAC3 /* AttendanceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C7122CD91CB300BFAAC3 /* AttendanceListViewController.swift */; };
+		3A24C7152CD91CE000BFAAC3 /* AddAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C7142CD91CE000BFAAC3 /* AddAttendanceViewController.swift */; };
+		3A24C7172CD91D1800BFAAC3 /* GeneralPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C7162CD91D1800BFAAC3 /* GeneralPolicyViewController.swift */; };
+		3A24C7192CD91D3900BFAAC3 /* EditPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C7182CD91D3900BFAAC3 /* EditPolicyViewController.swift */; };
+		3A24C71B2CD9419400BFAAC3 /* PolicyHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C71A2CD9419400BFAAC3 /* PolicyHistoryViewController.swift */; };
+		3A24C71D2CD963A900BFAAC3 /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24C71C2CD963A900BFAAC3 /* EmployeeDetailViewController.swift */; };
+		3A26A1332CDA4DBB0049954D /* EditAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26A1322CDA4DBB0049954D /* EditAttendanceViewController.swift */; };
+		3A48BEE62CDD0FE400A0017C /* AttendanceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48BEE52CDD0FE400A0017C /* AttendanceListTableViewCell.swift */; };
+		7E06D5642CE640220035D510 /* AttendanceHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E06D5632CE640220035D510 /* AttendanceHistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A22C7592CDB9E930040ACD2 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		3A24C6F72CD91C0200BFAAC3 /* attendance app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "attendance app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A24C6FA2CD91C0200BFAAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A24C6FC2CD91C0200BFAAC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A24C6FE2CD91C0200BFAAC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A24C7012CD91C0200BFAAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A24C7032CD91C0300BFAAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A24C7062CD91C0300BFAAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A24C7082CD91C0300BFAAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A24C70E2CD91C5500BFAAC3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3A24C7102CD91C8B00BFAAC3 /* UserDefaults Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults Helper.swift"; sourceTree = "<group>"; };
+		3A24C7122CD91CB300BFAAC3 /* AttendanceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceListViewController.swift; sourceTree = "<group>"; };
+		3A24C7142CD91CE000BFAAC3 /* AddAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAttendanceViewController.swift; sourceTree = "<group>"; };
+		3A24C7162CD91D1800BFAAC3 /* GeneralPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralPolicyViewController.swift; sourceTree = "<group>"; };
+		3A24C7182CD91D3900BFAAC3 /* EditPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPolicyViewController.swift; sourceTree = "<group>"; };
+		3A24C71A2CD9419400BFAAC3 /* PolicyHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyHistoryViewController.swift; sourceTree = "<group>"; };
+		3A24C71C2CD963A900BFAAC3 /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
+		3A26A1322CDA4DBB0049954D /* EditAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAttendanceViewController.swift; sourceTree = "<group>"; };
+		3A48BEE52CDD0FE400A0017C /* AttendanceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceListTableViewCell.swift; sourceTree = "<group>"; };
+		7E06D5632CE640220035D510 /* AttendanceHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceHistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +80,19 @@
 			children = (
 				3A24C6FA2CD91C0200BFAAC3 /* AppDelegate.swift */,
 				3A24C6FC2CD91C0200BFAAC3 /* SceneDelegate.swift */,
-				3A24C6FE2CD91C0200BFAAC3 /* ViewController.swift */,
 				3A24C7002CD91C0200BFAAC3 /* Main.storyboard */,
+				3A24C70E2CD91C5500BFAAC3 /* Model.swift */,
+				3A24C7102CD91C8B00BFAAC3 /* UserDefaults Helper.swift */,
+				3A24C7122CD91CB300BFAAC3 /* AttendanceListViewController.swift */,
+				3A48BEE52CDD0FE400A0017C /* AttendanceListTableViewCell.swift */,
+				3A24C7142CD91CE000BFAAC3 /* AddAttendanceViewController.swift */,
+				3A26A1322CDA4DBB0049954D /* EditAttendanceViewController.swift */,
+				3A24C71C2CD963A900BFAAC3 /* EmployeeDetailViewController.swift */,
+				7E06D5632CE640220035D510 /* AttendanceHistoryViewController.swift */,
+				3A24C7162CD91D1800BFAAC3 /* GeneralPolicyViewController.swift */,
+				3A24C7182CD91D3900BFAAC3 /* EditPolicyViewController.swift */,
+				3A24C71A2CD9419400BFAAC3 /* PolicyHistoryViewController.swift */,
+				3A22C7592CDB9E930040ACD2 /* Extension.swift */,
 				3A24C7032CD91C0300BFAAC3 /* Assets.xcassets */,
 				3A24C7052CD91C0300BFAAC3 /* LaunchScreen.storyboard */,
 				3A24C7082CD91C0300BFAAC3 /* Info.plist */,
@@ -138,9 +171,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A24C6FF2CD91C0200BFAAC3 /* ViewController.swift in Sources */,
+				3A48BEE62CDD0FE400A0017C /* AttendanceListTableViewCell.swift in Sources */,
+				3A24C70F2CD91C5500BFAAC3 /* Model.swift in Sources */,
+				7E06D5642CE640220035D510 /* AttendanceHistoryViewController.swift in Sources */,
 				3A24C6FB2CD91C0200BFAAC3 /* AppDelegate.swift in Sources */,
+				3A24C7172CD91D1800BFAAC3 /* GeneralPolicyViewController.swift in Sources */,
+				3A22C75A2CDB9E930040ACD2 /* Extension.swift in Sources */,
+				3A24C71B2CD9419400BFAAC3 /* PolicyHistoryViewController.swift in Sources */,
 				3A24C6FD2CD91C0200BFAAC3 /* SceneDelegate.swift in Sources */,
+				3A24C7152CD91CE000BFAAC3 /* AddAttendanceViewController.swift in Sources */,
+				3A24C7112CD91C8B00BFAAC3 /* UserDefaults Helper.swift in Sources */,
+				3A26A1332CDA4DBB0049954D /* EditAttendanceViewController.swift in Sources */,
+				3A24C7192CD91D3900BFAAC3 /* EditPolicyViewController.swift in Sources */,
+				3A24C7132CD91CB300BFAAC3 /* AttendanceListViewController.swift in Sources */,
+				3A24C71D2CD963A900BFAAC3 /* EmployeeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +343,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +371,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
